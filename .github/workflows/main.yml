@@ -35,6 +35,6 @@ jobs:
           bridge_download_url: ${{ env.LINUX_BRIDGE_URL }}
         env:
           LINUX_BRIDGE_URL: "https://sig-repo.synopsys.com/artifactory/bds-integrations-release/com/synopsys/integration/synopsys-action/0.1.114/ci-package-0.1.114-linux64.zip"
+          DETECT.EXCLUDED.DIRECTORIES: ".bridge"
           DETECT.BLACKDUCK.SIGNATURE.SCANNER.INDIVIDUAL.FILE.MATCHING: "ALL"
           LOGGING.LEVEL.COM.SYNOPSYS.INTEGRATION: "DEBUG"
-          #DETECT.PROJECT.VERSION.NAME: "latest"
