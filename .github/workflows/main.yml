@@ -22,7 +22,7 @@ jobs:
 
           # Optional parameter. By default, pushes will initiate a full "intelligent" scan and pull requests
           # will initiate a rapid scan.
-          #blackduck_scan_full: false
+          blackduck_scan_full: false
           # Optional parameter. The values could be. ALL|NONE|BLOCKER|CRITICAL|MAJOR|MINOR|OK|TRIVIAL|UNSPECIFIED
           # Single parameter
           blackduck_scan_failure_severities: "[\"ALL\"]"
