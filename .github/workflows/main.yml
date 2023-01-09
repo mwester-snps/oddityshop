@@ -1,6 +1,7 @@
 
 name: Synopsys Security Testing
 
+
 on:
   push:
     branches: [ master, main ]
